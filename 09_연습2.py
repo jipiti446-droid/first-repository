@@ -2,7 +2,7 @@ import random
 
 counters=[0,0,0,0,0,0]
 
-for i in range(1000):
+for i in range(500):
     value=random.randint(1,6)
     counters[value-1]=counters[value-1]+1
 
